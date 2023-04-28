@@ -1,36 +1,11 @@
 # Looping benchmarks
 
-This is a project for benchmarking
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
+This is a project for benchmarking some loops.
 
 ## Usage
 
-```python
-import foobar
+``` 
+dotnet build --configuration release
 
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+dotnet run --project benchmark --configuration release
 ```
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
